@@ -8712,6 +8712,7 @@ GameObject:
   - component: {fileID: 1587646541}
   - component: {fileID: 1587646547}
   - component: {fileID: 1587646546}
+  - component: {fileID: 1587646548}
   m_Layer: 0
   m_Name: bubbled_sza
   m_TagString: Untagged
@@ -8902,6 +8903,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubbleGO: {fileID: 0}
+--- !u!65 &1587646548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1587646540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1588142376
 Prefab:
   m_ObjectHideFlags: 0
